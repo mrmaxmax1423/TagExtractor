@@ -161,7 +161,6 @@ public class TaxExtractorFrame extends JFrame{
             e.printStackTrace();
         }
     }
-
     public ArrayList readFile()
     {
         JFileChooser chooser = new JFileChooser();
@@ -203,10 +202,7 @@ public class TaxExtractorFrame extends JFrame{
             e.printStackTrace();
         }
         return storedData;
-
     }
-
-
 }
 
 
