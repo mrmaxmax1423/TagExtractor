@@ -112,9 +112,9 @@ public class TaxExtractorFrame extends JFrame{
                 {
                     if (wordFreq.containsKey(word)) //check if word is already tracked
                     {
-                        wordFreq.replace(word, wordFreq.get(word) + 1);
+                        wordFreq.replace(word, wordFreq.get(word) + 1); //increment value by 1
                     } else
-                        wordFreq.put(word, 1);
+                        wordFreq.put(word, 1); //create new Map entry with key-word
                 }
             }
         }
